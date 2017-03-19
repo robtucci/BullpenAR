@@ -15,7 +15,7 @@ public class rotateCube : MonoBehaviour {
 	void Update () {
 
         var eulers = transform.rotation.eulerAngles;
-        transform.Rotate(new Vector3(0.0f,0.1f,0f));
+        transform.Rotate(new Vector3(0.0f,10f,0f));
         Debug.Log(eulers.x + ", " + eulers.y + ", " + eulers.z);
 	}
 }
